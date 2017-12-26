@@ -8,4 +8,4 @@ function removeFromPlaylist(playlist, artistName) {
   return delete playlist.artistName
 }
 
-removeFromPlaylist()
+removeFromPlaylist({ Kanye: "Gold Digger" }, "Kanye")
